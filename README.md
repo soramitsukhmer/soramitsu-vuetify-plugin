@@ -1,6 +1,6 @@
 # Soramitsu Vuetify Plugin
 
-#### Addons
+### Addons
 
 **Default addons**
 
