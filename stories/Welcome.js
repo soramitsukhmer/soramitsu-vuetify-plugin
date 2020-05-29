@@ -14,10 +14,10 @@ export default {
   data() {
     return {
       main: {
-        padding: 15,
+        padding: `15px`,
         lineHeight: 1.4,
         fontFamily: '"Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#9e9e9e',
       },
 
       logo: {
