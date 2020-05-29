@@ -1,6 +1,6 @@
 # Soramitsu Vuetify Plugin
 
-(![Storybook][github-storybok])(https://soramitsukhmer.github.io/soramitsu-vuetify-plugin/)
+[![Storybook][github-storybok]](https://soramitsukhmer.github.io/soramitsu-vuetify-plugin/)
 
 ### Addons
 
