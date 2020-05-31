@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve example/main.js",
+    "build:dev": "vue-cli-service build --watch --mode development --target lib src/main.js",
     "build": "vue-cli-service build --target lib src/main.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
