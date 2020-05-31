@@ -9,8 +9,8 @@
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
+      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest" target="_blank" rel="noopener">unit-jest</a></li>
     </ul>
     <h3>Essential Links</h3>
     <ul>
@@ -28,10 +28,6 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
-    <ul>
-      <li>Count: {{ count }}</li>
-      <li><Button @click.prevent="increment">Hello world</Button></li>
-    </ul>
   </div>
 </template>
 
@@ -40,16 +36,6 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  },
-  data () {
-    return {
-      count: 0
-    }
-  },
-  methods: {
-    increment () {
-      this.count++
-    }
   }
 }
 </script>

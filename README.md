@@ -28,7 +28,7 @@ yarn build:dev
 
 **Start development server**
 
-Run the following command will start up a developer server from `example` directory.
+Run the following command will start up a development server from `example` directory.
 
 ```sh
 yarn serve
