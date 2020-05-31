@@ -46,6 +46,20 @@ Once the process has finished. You may be able to publish the package to `NPM` r
 
 ## Storybook
 
+**Start storybook**
+
+Durning development you could start `storybook` local server via the following command
+
+```sh
+yarn storybook
+```
+
+> Note: please do not include `storybook-static` in your commit.
+
+This folder is automatically build and push into `gh-pages` branch withing the repo.
+
+You may visit the published storybook via the following url `https://soramitsukhmer.github.io/soramitsu-vuetify-plugin/`
+
 ### Addons
 
 **Default addons**
