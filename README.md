@@ -2,6 +2,50 @@
 
 [![Storybook][github-storybok]](https://soramitsukhmer.github.io/soramitsu-vuetify-plugin/)
 
+## Usage
+
+```sh
+# coming soon...
+# npm install {placeholder}
+```
+
+## Development
+
+Clone the project
+
+```sh
+git clone git@github.com:soramitsukhmer/soramitsu-vuetify-plugin.git
+cd soramitsu-vuetify-plugin
+```
+
+**Build local package**
+
+Run the following command will compile and bundle all components into `dist` folder and watch for changes.
+
+```sh
+yarn build:dev
+```
+
+**Start development server**
+
+Run the following command will start up a developer server from `example` directory.
+
+```sh
+yarn serve
+```
+
+## Production
+
+Run the following command will bundle all dependencies and components into `dist` folder.
+
+```sh
+yarn build
+```
+
+Once the process has finished. You may be able to publish the package to `NPM` repository.
+
+## Storybook
+
 ### Addons
 
 **Default addons**
@@ -16,3 +60,6 @@
 - [Knobs](https://github.com/storybookjs/storybook/tree/master/addons/knobs)
 
 [github-storybok]: https://github.com/soramitsukhmer/soramitsu-vuetify-plugin/workflows/Storybook/badge.svg
+
+## License
+License under [BSD-3-Clause](LICENSE)
